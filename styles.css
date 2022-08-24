@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+}
+.analog{
+    background-image: url("images/dialer.png"), linear-gradient(to right,#ffff,#ffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+.minutehand{
+    width: 3.5px;
+    height: 50%;
+    transform: scaleY(0.59);
+}
+.hourhand{
+    width: 5px;
+    height: 50%;
+    transform: scaleY(0.45);
+}
+.hands{
+    position:absolute;
+    transform-origin: bottom;
+    left: 50%;
+    background-color: black;
+}
+.secondhand{
+    width: 2px;
+    height: 50%;
+    transform: scaleY(0.69);
+    background-color: darkmagenta; 
+}
